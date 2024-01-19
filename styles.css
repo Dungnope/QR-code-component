@@ -1,0 +1,81 @@
+  * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: outfit;
+    }
+
+
+
+    .app {
+        background-color: #d5e1ef;
+        min-width: 100vh;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__container {
+        background-color: #fff;
+        height: 500px;
+        width: 320px;
+        padding: 16px;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+    .app__QR-pic {
+        background-image: url(./images/image-qr-code.png);
+        width: 288px;
+        height: 288px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        border-radius: 10px;
+    }
+
+    .app__information {
+        margin-top: 26px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .app__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        color: #24304a;
+    }
+    .app__description {
+        text-align: center;
+        color: #828691;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 22px;
+    }
+
+    @media (min-width: 376px) and (max-width: 1440px) {
+        
+    }
+    @media (max-width: 375px) {
+        .app {
+            justify-content: flex-start;
+            min-width: 375px;
+            position: relative;
+        }
+        body {
+            overflow: hidden;
+        }
+
+        .app__container {
+            position: absolute;
+            left: 28px;
+        }
+    }
+
+
+
+
+
