@@ -26,7 +26,7 @@
         flex-direction: column;
     }
     .app__QR-pic {
-        background-image: url(./images/image-qr-code.png);
+        background-image: url(image-qr-code.png);
         width: 288px;
         height: 288px;
         background-size: cover;
